@@ -1,20 +1,29 @@
-\documentclass[12pt, a4paper]{article}
+\documentclass[12pt,a4paper]{article} %tipo de documento papel e tamanho da fonte
 \usepackage[utf8x]{inputenc} %acentuação
-\usepackage[lmargin=2cm, tmargin=1cm, rmargin=2cm, bmargin=1cm]{geometry}
 \usepackage{ucs}
-\usepackage{textcomp}
+\usepackage[portuguese]{babel}
 \usepackage[T1]{fontenc} %ajusta textos copiados/colados
-\usepackage[brazil]{babel}
-\usepackage{amsmath, amsthm, amsfonts, amssymb, dsfont, mathtools} %símbolos matemáticos
+\usepackage{amsmath} %símbolos matemáticos
+\usepackage{amsfonts} %símbolos matemáticos
+\usepackage{amssymb} %símbolos matemáticos
+\usepackage{amsthm} %símbolos matemáticos
+\usepackage{mathtools} %símbolos matemáticos
+\usepackage{dsfont} %símbolos matemáticos
 \usepackage{float}
+\usepackage{makeidx}
 \usepackage{graphicx} %permite inserir figuras
+\usepackage{lmodern}
+\usepackage{fourier}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry} %layout da página
+\usepackage{textcomp}
 \usepackage{tabto} %permitir tabulação
-\usepackage{blindtext} %lorem ipsum se chamar a função \blindtext
-%\input{file.tex}
 \pagestyle{empty} %turn off page numbers (currently not working in my TeX distro)
 \parindent 0px %turn off indentation
-\begin{document}
+\title{English classes}
+\author{Traian Matisi}
 
+\begin{document}
+\maketitle
 \section{Class ONE}
 \subsection{História da língua inglesa}
 
@@ -648,7 +657,7 @@ Criando diálogos\\
 		e são subdivididos em:\\
 		Pronomes Pessoais do Caso Reto.\\
 		Pronomes Pessoais do Caso Oblíquo\\
-\section{Adjectives}
+\subsection{Adjectives}
 
 
 \section{Class three}
@@ -724,10 +733,6 @@ Visite o site www.teclasap.com.br\\
 		\item Many.
 		\item A lot.
 		\item Lots <of>.
-		\item 
-		\item 
-		\item 
-		\item 
 		\item 
 		\item Pretty
 		\item Wonderfull.
@@ -809,6 +814,98 @@ My dear ..., 	Meu querido...,/Minha querida...,
 		Regards, 	Saudações,\\
 		Kind regards, 	Saudações,\\
 		Best regards, 	Saudações,\\
+	\end{itemize}
+\section{Class four}
+\subsection{Questioning and asking}
+	\begin{itemize}
+		\item You do / Do you do?
+		\item I am / Am I?
+		\item You are / Are you?
+	\end{itemize}
+\subsection{Auxiliar verbs}
+	\begin{itemize}
+		\item Do - Fazer.
+		\item Can - Poder.
+		\item Could - Poderia.
+		\item Should - Deveria.
+		\item Shall - Hei.
+		\item Will - Irá*.
+		\item Would - Iria*.
+		\item May - Devo.
+		\item Might - Talvez (maybe apenas sem verbos e perhaps).
+	\end{itemize}
+\subsection{Negatives}
+	\begin{itemize}
+		\item No: Opposes the yes. Can oppose something, meaning zero something.
+		\item Not: Modifies the verb. Works with the verb or noun.
+		\item Do not do / Does not do: Modifies the sentence. Works with the auxiliary verb.
+	\end{itemize}
+	\begin{itemize}
+		\item I am not / I'm not / n/a
+		\item You are not / You're not / You aren't
+		\item He is not / He's not / He isn't
+	\end{itemize}
+	\begin{itemize}
+		\item Can not
+		\item 
+	\end{itemize}
+\section{Class five}
+\subsection{Indicatives}
+	\begin{itemize}
+		\item What:\\ What's your name?
+		\item How:\\ How are you?
+		\item When:\\ When is your birthday?
+		\item Who:\\Who are you?
+		\item Why:\\ Porquês.\\
+		Por que - Pergunta de "Por qual motivo/Pelo qual".\\
+		Porque - Resposta ou conjunção.\\
+		Por quê - Final de frases que não sejam perguntas.\\
+		Porquê - Because - Substantivo motivo/razão.
+		\item This:\\ Esse/este/isso/isto
+		\item That:\\ Aquele
+		\item These:\\ Esses/estes
+		\item Those:\\ Aqueles
+		\item Much:\\ Quanto/Tanto
+		\item Many:\\ Quanto/Vários/Muitos
+		\item Lot:\\ Muito
+		\item Very:\\ Thank you very much.
+		\item Few:\\ Pouco.
+		\item Little:\\ Pequeno/Pouco.
+		\item Big
+		\item Tall
+		\item Short
+		\item Large
+		\item Have
+		\item Can
+		\item May
+		\item Any
+		\item All
+		\item Bring
+		\item Take
+		\item Get
+		\item Nice
+		\item Well
+		\item Bad
+		\item Good
+		\item Evil
+		\item In
+		\item Inside
+		\item Out
+		\item Outside
+		\item On
+		\item On top
+		\item Over
+		\item Under
+		\item Above
+		\item Below
+		\item In front
+		\item Behind
+		\item On the left
+		\item On the right
+		\item Between
+		\item Among
+		\item Against
+		\item On the floor
 	\end{itemize}
 
 \end{document}
