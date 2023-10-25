@@ -5,9 +5,18 @@ ingles-basico.aux
 ingles-basico.dvi
 ingles-basico.log
 ingles-basico.out
-ingles-basico.pdf
+#ingles-basico.pdf
 ingles-basico.synctex.gz
 ingles-basico.tex.bak
+
+#ingles-medio
+ingles-medio.aux
+ingles-medio.dvi
+ingles-medio.log
+ingles-medio.out
+#ingles-medio.pdf
+ingles-medio.synctex.gz
+ingles-medio.tex.bak
 
 #powerpointClasses
 powerpointClasses.aux
